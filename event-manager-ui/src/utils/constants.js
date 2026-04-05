@@ -7,9 +7,11 @@
 //     : "https://event-manager.onrender.com/api";
 
     // API configuration for Render Backend 
-export const API_BASE_URL = window.location.hostname === "localhost" 
-    ? "http://localhost:8003/api" 
-    : "https://event-manager-5hdv.onrender.com/api";
+// export const API_BASE_URL = window.location.hostname === "localhost" 
+//     ? "http://localhost:8003/api" 
+//     : "https://event-manager-5hdv.onrender.com/api";
+
+export const API_BASE_URL = "https://event-manager-5hdv.onrender.com/api";
 
 // User Roles
 export const ROLES = {
