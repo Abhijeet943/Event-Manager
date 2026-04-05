@@ -76,4 +76,3 @@ console.log('\n✅ Build post-processing completed successfully!');
 console.log('\n📝 Next steps:');
 console.log('   1. Run: mvn clean package -DskipTests');
 console.log('   2. The React app will be served from the Spring Boot JAR');
-console.log('   3. Access at: http://localhost:8003\n');

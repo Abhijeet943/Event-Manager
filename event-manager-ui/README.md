@@ -114,7 +114,6 @@ src/
 ```bash
 npm start
 ```
-Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
 ### Production Build
 ```bash
@@ -273,8 +272,7 @@ The frontend expects the following API endpoints to be available at `REACT_APP_A
 ## Environment Variables
 
 ```env
-# API Configuration
-REACT_APP_API_URL=http://localhost:8003/api
+
 
 # App Mode
 REACT_APP_MODE=development
@@ -336,8 +334,6 @@ This project is part of the College Event Management System
 For issues, bugs, or feature requests, please refer to the main project documentation or contact the development team.
 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
