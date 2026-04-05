@@ -9,4 +9,6 @@ FROM eclipse-temurin:21-jdk-jammy
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 10000
-ENTRYPOINT ["java", "-jar", "app.jar", "--server.port=10000"]
+
+# Using 'sh -c' forces the container to read Render's Environment Variables
+ENTRYPOINT ["sh", "-c", "java -jar app.jar --server.port=${SERVER_PORT:-10000}"]
